@@ -9,3 +9,4 @@ myvenv/
 myvenv2/Lib/site-packages
 bttai-nybg-2024/
 models/
+*.zip
