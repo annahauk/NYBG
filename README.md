@@ -13,7 +13,7 @@ For my Break Through Tech AI Spring AI Studio project, we partnered with New Yor
 9. Ordinary Pressed Specimens
 10. Micrographs Transmission Light
 
-Our most accurate model lies in the 'epoch.ipynb' file. We achieved an accuracy score over 90% and utilized a Tensorflow Xception Model. This competition was sourced through kaggle and you can find my team's submission here: https://www.kaggle.com/competitions/bttai-nybg-2024/overview
+Our most accurate model lies in the 'epoch.ipynb' file. Through a Tensorflow Xception Model, we achieved an accuracy score over 90%. This competition was sourced through kaggle and you can find my team's submission here: https://www.kaggle.com/competitions/bttai-nybg-2024/overview
 
 ## **Our Objectives:**
 - [ ] Exploratory Data Analysis
