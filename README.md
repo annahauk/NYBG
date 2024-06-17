@@ -1,12 +1,17 @@
 # NYBG IMAGE CLASSIFIER🌱
-For my Break Through Tech AI Spring AI Studio project, we partnered with New York Botanical Garden to create an Image Classifier to correctly identify and sort the XXX number of specimens into the 10 image classes. 
+For my Break Through Tech AI Spring AI Studio project, we partnered with New York Botanical Garden to create an Image Classifier to correctly identify and sort the 123,000 samples of specimens into the 10 image classes.
+
 ## 10 Image classes
-- Biocultural Specimens: Human made objects; brooms, carpets, etc.
-- sme
-- qsk
-- nas
-- am
-- mkqs
+1. Occuluded Specimens
+2. Microscope Slides
+3. Illustrations (Color)
+4. Animal Specimens
+5. Live Plants
+6. Biocultural Specimens: Human made objects; brooms, carpets, etc.
+7. Illustrations (Gray)
+8. Mixed Pressed Specimens
+9. Ordinary Pressed Specimens
+10. Micrographs Transmission Light
 
 Our most accurate model lies in the 'epoch.ipynb' file. We achieved an accuracy score over 90% and utilized a Tensorflow Xception Model. This competition was sourced through kaggle and you can find my team's submission here: https://www.kaggle.com/competitions/bttai-nybg-2024/overview
 
@@ -17,7 +22,10 @@ Our most accurate model lies in the 'epoch.ipynb' file. We achieved an accuracy 
 - [ ] Performance
 
 > [!NOTE]
-> Our data contains 28022 rows and 50 columns.
+> Our data was previously seperated into 3 datasets.
+> Training data with 81,946 rows and 5 columns.
+> Validation data with 10,244 rows and 5 columns.
+> Test data with 30,690 rows and 2 columns.
 
 
 ## **EDA**
