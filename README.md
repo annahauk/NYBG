@@ -1,5 +1,5 @@
 # NYBG IMAGE CLASSIFIER🌱
-For my Break Through Tech AI Spring AI Studio project, we partnered with New York Botanical Garden to create an Image Classifier to correctly identify and sort the 123,000 samples of specimens into the 10 image classes.
+For my Break Through Tech AI Spring AI Studio project, we partnered with New York Botanical Garden to create an Image Classifier to correctly identify and sort the 122,880 samples of specimens into the 10 image classes.
 
 ## 10 Image classes
 1. Occuluded Specimens
