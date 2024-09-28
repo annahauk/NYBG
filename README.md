@@ -40,6 +40,28 @@ Our most accurate model lies in the 'epoch.ipynb' file. Through a Tensorflow Xce
 
 ## **EDA**
 
+Our training dataset is compromised of 5 columns: 'uniqueID', 'classLabel', 'classID', 'source', 'imageFile'. The two columns 'classLabel', 'classID' correspond to the label we will be predicting. The 'source' column is what organization it came from. This can hold some correlation that we can explore-- like if more microscopic specimens come from a certain laboratory/foundation etc. more than others within 'sources'.
+
+**Correlation** is a statistical measure that expresses the extent to which two variables are linearly related. In our example, if a source provides a significantly larger number of samples compared to the other sources for a specific class, you can say there is a correlation-- a strong association between that source and class. 
+
+Here is the breakdown of the classes: <img width="414" alt="image" src="https://github.com/user-attachments/assets/1d28f887-bf64-445c-ae91-642c4b59482e">
+
+We can create a countplot to visualize the contributions per source
+<img width="837" alt="image" src="https://github.com/user-attachments/assets/24eb6cab-1af1-41d3-aa2a-08226dda3dbc">
+
+This isn't as easy to read so we can look at individual class labels:
+
+And after looking at one of the labels, 'microscope-slides', we can see that of the 37 different sources, only 3 contribute microscope slides with the majority provided by 'L'.
+<img width="727" alt="image" src="https://github.com/user-attachments/assets/a9672a0a-ff38-4be1-9c79-66e8c703461a">
+
+Same with 'illustrations-color' with the majority sourced by 'BHL'
+<img width="736" alt="image" src="https://github.com/user-attachments/assets/eb6e1f40-fad6-44ac-a61f-e986d316c034">
+
+Or we can look at the first half of the sources that have most variation and/or samples from the training data.
+![image](https://github.com/user-attachments/assets/7af1a881-4492-4c41-96a2-5f02fdb152fe)
+
+Still not the best but it's a way to see if there is correlation within the source column and a specific class and there seems to be for some. 
+
 - [X] Exploratory Data Analysis
 - [ ] Model Creation
 - [ ] Hyperparameter Tuning
@@ -47,6 +69,13 @@ Our most accurate model lies in the 'epoch.ipynb' file. Through a Tensorflow Xce
 
 
 ## **Model Creation**
+
+https://towardsdatascience.com/review-xception-with-depthwise-separable-convolution-better-than-inception-v3-image-dc967dd42568
+
+For our model, we are using a pretrained Xception model via Keras for the image classification. Xception by Google, stands for Extreme version of Inception. We previously tried....... and found that it was either too computationally exhaustive, wasn't accurate, or ...
+
+https://keras.io/api/applications/xception/
+
 
 - [X] Exploratory Data Analysis
 - [X] Model Creation
