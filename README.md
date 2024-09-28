@@ -3,6 +3,9 @@
 For the Break Through Tech AI Spring project, we partnered with The New York Botanical Garden. The New York Botanical Garden(NYBG) herbarium houses over 7.8 million plant and fungal specimens, offering invaluable insights into plant diversity and ecological changes over time. However, approximately 10% of the digitized images in the database are classified as “non-standard,” including images of animals and color illustrations, which hinder researchers' ability to conduct meaningful machine learning studies.
 
 This project aims to develop a machine learning model that automatically classifies and filters out non-standard images, facilitating more efficient dataset curation for biodiversity research.
+![00a0b08c8e84c1c8](https://github.com/user-attachments/assets/d8fe5c29-d6de-4e59-aab8-54f01c1f234a)
+![0a1d293939393939](https://github.com/user-attachments/assets/4311a1ac-3358-46e4-81b0-8e55266ddb15)
+![0a0a49cfc7474f4f](https://github.com/user-attachments/assets/ad18f0ce-3e0c-41c8-bee8-eecda8c30bc8)
 
 ## Project Scope
 - <b>Objective:</b> To create a robust image classification model capable of distinguishing between standard and non-standard herbarium images.
@@ -72,7 +75,7 @@ Still not the best but it's a way to see if there is correlation within the sour
 
 https://towardsdatascience.com/review-xception-with-depthwise-separable-convolution-better-than-inception-v3-image-dc967dd42568
 
-For our model, we are using a pretrained Xception model via Keras for the image classification. Xception by Google, stands for Extreme version of Inception. We previously tried....... and found that it was either too computationally exhaustive, wasn't accurate, or ...
+For our model, we are using a pretrained Xception model via Keras for the image classification. Xception by Google, stands for Extreme version of Inception. We previously tried VGG16,  and found that it was either too computationally exhaustive, wasn't accurate, or ...
 
 https://keras.io/api/applications/xception/
 
