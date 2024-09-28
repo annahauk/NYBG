@@ -1,5 +1,15 @@
 # NYBG IMAGE CLASSIFIER🌱
-For my Break Through Tech AI Spring AI Studio project, we partnered with New York Botanical Garden to create an Image Classifier to correctly identify and sort the 122,880 samples of specimens into the 10 image classes.
+## Project Overview
+For the Break Through Tech AI Spring project, we partnered with The New York Botanical Garden. The New York Botanical Garden(NYBG) herbarium houses over 7.8 million plant and fungal specimens, offering invaluable insights into plant diversity and ecological changes over time. However, approximately 10% of the digitized images in the database are classified as “non-standard,” including images of animals and color illustrations, which hinder researchers' ability to conduct meaningful machine learning studies.
+
+This project aims to develop a machine learning model that automatically classifies and filters out non-standard images, facilitating more efficient dataset curation for biodiversity research.
+
+## Project Scope
+- <b>Objective:</b> To create a robust image classification model capable of distinguishing between standard and non-standard herbarium images.
+- <b>Target Audience:</b> Researchers and scientists utilizing NYBG’s herbarium data for ecological studies, biodiversity analysis, and conservation efforts.
+- <b>Impact:</b> Streamline the data curation process, enabling researchers to focus on significant biodiversity research while enhancing the usability of the dataset.
+
+For this project, we classified 122,880 samples of specimens into the 10 image classes.
 
 ## 10 Image classes
 1. Occuluded Specimens
@@ -13,7 +23,7 @@ For my Break Through Tech AI Spring AI Studio project, we partnered with New Yor
 9. Ordinary Pressed Specimens
 10. Micrographs Transmission Light
 
-Our most accurate model lies in the 'epoch.ipynb' file. Through a Tensorflow Xception Model, we achieved an accuracy score over 90%. This competition was sourced through kaggle and you can find my team's submission here: https://www.kaggle.com/competitions/bttai-nybg-2024/overview
+Our most accurate model lies in the 'epoch.ipynb' file. Through a Tensorflow Xception Model, we achieved an accuracy score over 90%. This competition was sourced through kaggle and you can find our team's submission here: https://www.kaggle.com/competitions/bttai-nybg-2024/overview
 
 ## **Our Objectives:**
 - [ ] Exploratory Data Analysis
