@@ -124,6 +124,7 @@ We set the weights to 'imagenet' for the pretrained model. The include_top=False
 
 ## **Performance**
 
+After hyperparameter tuning and many epochs, here is out performance after 10 epochs ```loss: 0.0312 - accuracy: 0.9444 - val_loss: 0.0289 - val_accuracy: 0.9463```. And this was after we froze some layers of the model and updated others. It only led to a 0.04 increase in accuracy but stayed resistant to overfitting.
 
 
 - [X] Exploratory Data Analysis
