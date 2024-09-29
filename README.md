@@ -108,12 +108,23 @@ max means that global max pooling will be applied.
 - **classifier_activation:** A str or callable. The activation function to use on the "top" layer. Ignored unless include_top=True. Set classifier_activation=None to return the logits of the "top" layer. When loading pretrained weights, classifier_activation can only be None or "softmax".
 - **name:** The name of the model (string).
 
+```
+base_model = Xception(
+    weights='imagenet',
+    include_top=False, 
+    classifier_activation='softmax'
+    )
+  ```
+We set the weights to 'imagenet' for the pretrained model. The include_top=False sets model to output features from the last convolutional block instead of class probabilities. Then we'll set input/outputs and run a Keras base model.
+
 - [X] Exploratory Data Analysis
 - [X] Model Creation
 - [X] Hyperparameter Tuning
 - [ ] Performance
 
 ## **Performance**
+
+
 
 - [X] Exploratory Data Analysis
 - [X] Model Creation
